@@ -3,7 +3,7 @@ import type { StrapiApp } from '@strapi/strapi/admin';
 export default {
   config: {
     locales: [
-      // 'ar',
+      'ar',
       // 'fr',
       // 'cs',
       // 'de',
@@ -30,6 +30,9 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    menu: {
+      logo: '/uploads/thumbnail_map_order_marker_border_careem_769fee1635.png', // path to your custom logo (will appear in the sidebar)
+    },
   },
   bootstrap(app: StrapiApp) {
     console.log(app);
